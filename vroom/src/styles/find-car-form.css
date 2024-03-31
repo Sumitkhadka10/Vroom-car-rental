@@ -1,0 +1,38 @@
+.find__cars-left {
+    background: linear-gradient(rgb(243, 187, 65, 0.9), rgb(243, 187, 65, 0.9)), url('../assets/all-images/Find ur car.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 20px;
+}
+
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__group label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.form__group input[type='text'],
+.form__group input[type='date'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form__group button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form__group button:hover {
+    background-color: #0056b3;
+}
