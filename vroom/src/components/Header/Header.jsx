@@ -55,7 +55,7 @@ const Header = () => {
               </Link>
 
               <Link to='#' className='d-flex align-items-center gap-1'>
-                <i class="ri-user-line"></i> Register/Signup
+                <i class="ri-user-line"></i> signup
               </Link>
             </div>
           </Col>
@@ -149,4 +149,4 @@ const Header = () => {
   )
 }
 
-expo
+export default Header
