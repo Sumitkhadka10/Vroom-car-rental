@@ -1,4 +1,6 @@
-import React from 'react'
+// router.jsx
+
+import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from '../pages/Home';
 import About from '../pages/About';
@@ -7,7 +9,8 @@ import CarDetails from '../pages/CarDetails';
 import Blog from '../pages/Blog';
 import BlogDetails from '../pages/BlogDetails';
 import NotFound from '../pages/NotFound';
-
+import LoginPage from '../components/login/login.jsx';
+import Signup from '../components/signup/signup.jsx';
 
 const Routers = () => {
   return (
@@ -19,9 +22,11 @@ const Routers = () => {
       <Route path='/cars/:slug' element={<CarDetails/>}/>
       <Route path='/blogs' element={<Blog/>}/>
       <Route path='/blogs/:slug' element={<BlogDetails/>}/>
+      <Route path='/login' element={<LoginPage/>}/>
+      <Route path='/signup' element={<Signup/>}/>
       <Route path='*' element={<NotFound/>}/>
     </Routes>
   )
 }
 
-export default Routers
+export default Routers;

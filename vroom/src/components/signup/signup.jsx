@@ -1,18 +1,14 @@
-import React from 'react'
-import './signup.css'
+import React from 'react';
+import './signup.css';
 
 export default function Signup() {
-    return <>
+    return (
         <div className="main">
-            <div className="image-container">
-
-            </div>
-
             <div className="signup-form-container">
                 <div className="signup-form">
                     <div className="signup-header">
                         <p className='signup-main-text'>VROOM Car Rental</p>
-                        <p className='signup-sub-text'>Create an Account </p>
+                        <p className='signup-sub-text'>Create an Account</p>
                     </div>
                     <div className="signup-textfields">
                         <label htmlFor="">Full Name</label>
@@ -37,5 +33,5 @@ export default function Signup() {
                 </div>
             </div>
         </div>
-    </>
+    );
 }
