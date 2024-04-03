@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './login.css'; // Import the CSS file
 
+
 const LoginPage = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -57,11 +58,13 @@ const LoginPage = () => {
                 </p>
                 <button onClick={handleLogin}>Login</button>
               </div>
+              
             )}
           </div>
         </div>
       </div>
     </div>
+    
   );
 };
 
